@@ -2,32 +2,34 @@
 
 In this series of articles, we describe the development, code architecture, the delivery mechanisms and operations guide for enterprise adoption of landing zones.
 
-## Development and code architecture
+## Getting started
+
+[Getting started on your laptop](./getting_started/getting_started.md)
+
+[Getting started on Visual Studio CodeSpaces](./getting_started/getting_started_codespaces.md)
+
+## Landing zones architecture
 
 [Introduction to Azure landing zones architecture](./code_architecture/intro_architecture.md)
 
-[Introduction to service composition inside landing zones](./code_architecture/service_composition.md)
-
-Soon - [CAF landing zones hierarchy model]()
-
-Soon - [Developing landing zones, modules, blueprints]()
-
-Soon - [Create your first landing zone in 10 easy steps]()
+[Enterprise landing zones hierarchy model](./code_architecture/hierarchy.md)
 
 ## Delivery of landing zones
 
-Soon - [Introduction to delivery of landing zones]()
+[Introduction to delivery of landing zones](./delivery/delivery_landingzones.md)
+
+[Deploying landing zones with GitHub Actions](./delivery/intro_ci_gha.md)
+
+[Deploying landing zones with Azure DevOps](./delivery/intro_ci_ado.md)
 
 Soon - [Deployment guide for Azure CAF landing zones]()
 
-Soon - [DevOps for landing zones]()
+## Development and code
 
-## Operating an environment with landing zones
+[Modules Unit and integration testing](./test/unit_test.md)
 
-Soon - [Deep-dive on launchpad]()
+Soon - [Landing zones development conventions]()
 
-Soon - [IaC vs regular code, the similarities and the differences]()
+[Introduction to service composition inside landing zones](./code_architecture/service_composition.md)
 
-Soon - [Introduction to GitOps]()
-
-Soon - [The people, procedures and policies]()
+Soon - [Create your first landing zone in 10 easy steps - part 2]()
